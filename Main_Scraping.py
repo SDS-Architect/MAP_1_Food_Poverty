@@ -9,10 +9,11 @@ from selenium.webdriver.chrome.options import Options
 from supermarket_parameters import (
     supermarket_parameters,
     supermarket_list,
-    product_list,
     path_chrome,
 )
-from General_Utilities import slow_typing
+from General_Utilities.General_Utilities import slow_typing
+
+from General_Utilities.supermarket_parameters import supermarket_parameters
 
 ### Main Function
 def supermarket_sweeper(supermarkets, products, supermarket_parameters):
