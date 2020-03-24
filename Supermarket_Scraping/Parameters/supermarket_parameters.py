@@ -43,6 +43,19 @@ supermarket_parameters = {
         "main_area_class": "div",
         "main_area_name": "main-column",
         "css_id_organise": ".sort-wrapper",
-        "css_option_text": "Total price: Low to High",
+        "css_option_text": "Total price: Low to High"
     },
+    "Iceland":{
+        "home_url_id": "https://www.iceland.co.uk/",
+        "search_bar_id": "#header-search",
+        "search_button_path": ".btn-dark",
+        "prod_name_type": "img",
+        "prod_name_class": "thumb-link",
+        "prod_price_type": "",
+        "prod_price_class": "",
+        "main_area_class": "",
+        "main_area_name": "",
+        "css_id_organise": "",
+        "css_option_text": ""
+    }
 }

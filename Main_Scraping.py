@@ -6,14 +6,15 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 ### Importing from other files
-from supermarket_parameters import (
+from Supermarket_Scraping.Parameters.supermarket_parameters import (
     supermarket_parameters,
     supermarket_list,
-    path_chrome,
+    path_chrome
 )
-from General_Utilities.General_Utilities import slow_typing
 
-from General_Utilities.supermarket_parameters import supermarket_parameters
+from Supermarket_Scraping.Utility_Functions.General_Utilities import slow_typing
+
+from Supermarket_Scraping.Parameters.supermarket_parameters import supermarket_parameters
 
 ### Main Function
 def supermarket_sweeper(supermarkets, products, supermarket_parameters):
@@ -178,3 +179,7 @@ def supermarket_sweeper(supermarkets, products, supermarket_parameters):
         main_price_list,
         reserve_price_list,
     )
+
+supermarket_sweeper(supermarkets = supermarket_list,\
+    products=['Apple', 'Bannana'],\
+         supermarket_parameters = supermarket_parameters)
